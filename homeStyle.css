@@ -1,0 +1,41 @@
+.menu-icon-mobile {
+  margin: 1rem 1px 1rem 1.5rem;
+  color: #d3d3d3;
+}
+
+.headline-text {
+  margin: 1rem 1rem 0.5rem 1.5rem;
+}
+
+.headline-text h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.conference-description-text {
+  color: black;
+  border: solid 2px red;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+}
+
+.greeting-text {
+  color: #ec5242;
+  margin-bottom: 2px;
+  font-family: 'Lato', sans-serif;
+}
+
+.header-time-text {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+.header-place-text {
+  font-family: 'Lato', sans-serif;
+}
