@@ -59,7 +59,6 @@ function populateFirstTwoSpeakers(){
   speakerData.forEach((data) => {
     if (counter<=1){
       speakerSection.innerHTML += `
-      <div class="grid-speaker-container">
         <div class="grid-speaker-section">
           <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
           <div class="speaker-description">
@@ -68,8 +67,7 @@ function populateFirstTwoSpeakers(){
             <hr class="dividing-line-speakers">
             <p class="speaker-description-text"> ${data.speakerAchievements} </p>
           </div>
-        </div>
-      </div>`; }
+        </div>`; }
     counter++;    
   });
   speakerSection.innerHTML+= ` <button id="see-more-button" class="speakers-button rounded p-2"> MORE <i class="fas fa-chevron-down see-more-speakers-icon"></i> </button>`
@@ -80,7 +78,6 @@ function populateAllSpeakersMobile(){
   speakerSection.innerHTML = '';
   speakerData.forEach((data) => {
   speakerSection.innerHTML += `
-      <div class="grid-speaker-container">
         <div class="grid-speaker-section">
           <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
           <div class="speaker-description">
@@ -89,8 +86,7 @@ function populateAllSpeakersMobile(){
             <hr class="dividing-line-speakers">
             <p class="speaker-description-text"> ${data.speakerAchievements} </p>
           </div>
-        </div>
-      </div>`;});
+        </div>`;});
   speakerSection.innerHTML+= ` <button id="see-less-button" class="speakers-button rounded p-2"> SEE LESS <i class="fas fa-chevron-down see-more-speakers-icon"></i> </button>`
   document.querySelector('#see-less-button').addEventListener('click', populateFirstTwoSpeakers);
 }
@@ -98,7 +94,6 @@ function populateAllSpeakersMobile(){
 function populateAllSpeakersDesktop(){
   speakerData.forEach((data) => {
     speakerSection.innerHTML += `
-        <div class="grid-speaker-container">
           <div class="grid-speaker-section">
             <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
             <div class="speaker-description">
@@ -107,8 +102,7 @@ function populateAllSpeakersDesktop(){
               <hr class="dividing-line-speakers">
               <p class="speaker-description-text"> ${data.speakerAchievements} </p>
             </div>
-          </div>
-        </div>`;})
+          </div>`;})
 }
 
 hamburger.addEventListener('click', popUpMenu);
@@ -121,6 +115,4 @@ if(mediaQuerryDesktop.matches){
 else {
   populateAllSpeakersDesktop();
 }
-  
 
-console.log(2);
