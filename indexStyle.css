@@ -64,9 +64,23 @@ header {
 .main-program div h2{
   text-align: center;
   color: white;
-  padding: 1.9rem 2px;
+  padding-top: 1.9rem;
   font-size: 1.2rem;
   font-family: 'Lato', sans-serif;
+}
+
+.orange-dividing-line-program {
+  color: #ec5242;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.orange-dividing-line-about {
+  color: #ec5242;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .program-image-icons {
@@ -101,7 +115,6 @@ header {
 
 .grid-speaker-container {
   display: grid;
-  border: red solid 1px;
   margin-top: 1rem; 
 }
 
