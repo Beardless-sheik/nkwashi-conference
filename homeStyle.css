@@ -39,3 +39,124 @@
 .header-place-text {
   font-family: 'Lato', sans-serif;
 }
+
+.main-program {
+  background-color: #272a31;
+  padding-bottom: 3rem;
+}
+
+.program-container {
+  background-color: #44464d;
+  margin: 2px 10px;
+}
+
+.main-program div h2{
+  text-align: center;
+  color: white;
+  padding: 1.9rem 2px;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.program-image-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.program-description-title {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.program-description-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  color: white;
+}
+
+.join-button {
+  color: white;
+  background-color: #ec5242;
+  border: none;
+  text-decoration: none;
+  margin: 2rem auto;
+  display: block;
+  width: 60%;
+  text-align: center;
+}
+
+.grid-speaker-container {
+  display: grid;
+  border: red solid 1px;
+  margin-top: 1rem; 
+}
+
+.grid-speaker-section {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.speakers {
+  margin-bottom: 2rem;
+}
+
+.speaker-image {
+  width: 80%;
+  height: 80%;
+  margin: 1rem;
+}
+
+.speaker-title {
+  font-family: 'Lato', sans-serif;
+  margin: 1.5rem auto 0.5px;
+  font-size: 1.25rem;
+}
+
+.speaker-description {
+  font-family: 'Lato', sans-serif;
+}
+
+.speaker-profession {
+  color: #ec5242;
+  font-style: italic;
+  margin: 2px auto;
+}
+
+.speaker-description-text {
+  font-size: 0.5rem;
+}
+
+.dividing-line-speakers {
+  width: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.speakers-button {
+  margin: 0.5rem auto;
+  display: block;
+  border: solid 1px #d3d3d3;
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.65rem;
+  width: 90%;
+}
+
+.see-more-speakers-icon {
+  color: #ec5242;
+  padding-left: 0.5rem;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Lato', sans-serif;
+}
+
+.nkwashi-logo {
+  width: 8rem;
+  margin: 3px 1px 2px 12px;
+}
