@@ -3,14 +3,9 @@
   color: #272a31;
 }
 
-.menu-hidden {
-  display: none !important;
-}
-
 header {
   background-image: url('./images/background.png');
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   color: #747272;
 }
 
@@ -200,4 +195,99 @@ footer {
 
 .mobile-menu-list ul li a:hover {
   color: #ec5242;
+}
+
+header {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px){
+  .menu-hidden {
+    display: none !important;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-hidden {
+    display: none;
+  }
+
+  .top-view-links {
+    background-color: #454546;
+    height: 2rem;
+  }
+
+  .upper-links {
+    color: white;
+  }
+
+  .upper-links div ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .upper-links div ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .upper-links div ul li {
+    padding-left: 1.5rem;
+    padding-top: 4px;
+  }
+
+  .desktop-main-nav-links{
+    display: block;
+  }
+
+  .desktop-main-nav-links ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    background: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .header-desktop-image-logo {
+    object-fit: cover;
+    width: 3rem;
+    max-height: 100%;
+  }
+
+  .headline-text {
+    max-width: 75%;
+    padding: 5rem 7rem 7rem;
+    margin-left: 8rem;
+  }
+
+  .greeting-text {
+    font-size: 2.4rem;
+  }
+
+  .headline-text h1 {
+    font-size: 4.5rem;
+  }
+
+  .conference-description-text {
+    max-width: 65%;
+    padding: 2rem;
+    font-size: 1.3rem;
+    background: #f8f7f7;
+  }
+
+  .header-time-text {
+    font-size: 2.75rem;
+    font-weight: 800;
+  }
+
+  .header-place-text {
+    font-size: 2rem ;
+  }
+
+  .main-program div h2 {
+    font-size: 2rem;
+  }
 }

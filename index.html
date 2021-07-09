@@ -13,19 +13,40 @@
   </head>
 
   <body>
-    <header class="py-3">
-      <div class="container-fluid">
+    <header class="">
+      <!-- Desktop Header and Links -->
+      <div class="mobile-hidden container-fluid top-view-links">
+        <div class="row upper-links justify-content-end">
+          <div class="col-5 justify-content-center d-flex px-5">
+            <ul class="upper-links-container-ul align-items-center d-flex">
+              <li><i class="facebook-logo-desktop fab fa-facebook-f"></i></li>
+              <li><i class="twitter-logo-desktop fab fa-twitter"></i></li>
+              <li><a href=""> English</a></li>
+              <li><a href="">My Page</a></li>
+              <li><a href="">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hamburger Icons for Mobile Menu -->
+      <div class="desktop-hidden container-fluid">
         <i id="hamburger-menu" class="menu-icon-mobile fa fa-bars f a-lg fa-2x"></i>
         <i id="close-menu-icon" class="menu-hidden menu-icon-mobile fas fa-times fa-2x"></i>
       </div>
+
+      <!-- Links to Show on Mobile Menu -->
       <div id="mobile-menu-links" class="menu-hidden mobile-menu-list text-center">
-        <ul>
-          <li> <a href="./about.html">About</a> </li>
-          <li> <a href="#program">Program</a> </li>
-          <li> <a href="#join-conference">Join</a> </li>
-          <li> <a href="#">Sponsor</a> </li>
-          <li> <a href="#">News</a> </li>
-        </ul>
+        <div class="desktop-main-nav-links">
+          <ul class="p-3">
+            <li class="mobile-hidden"> <a href=""> <img class="img-fluid header-desktop-image-logo" src="./images/nkwashi-logo.png" alt=""></a> </li> 
+            <li> <a href="./about.html">About</a> </li>
+            <li> <a href="#program">Program</a> </li>
+            <li> <a href="#join-conference">Join</a> </li>
+            <li> <a href="#">Sponsor</a> </li>
+            <li> <a href="#">News</a> </li>
+          </ul>
+        </div>
       </div>
 
       <section id="program" class="headline-text">
@@ -35,7 +56,7 @@
             Trying to create a positive change with people from all over the country trying to effect actual change in our 
             communities! It is taking place in Nkwashi, Lusaka, Zambia!
         </p>
-        <p class="header-time-text"> 2021.10.7(THU) ~ 8(FRI) </p>
+        <p class="header-time-text pt-4"> 2021.10.7(THU) ~ 8(FRI) </p>
         <p class="header-place-text"> @ Chena Art House, Nkwashi, Lusaka! </p>
       </section>
     </header>
