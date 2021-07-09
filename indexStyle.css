@@ -1,6 +1,17 @@
 .menu-icon-mobile {
-  margin: 1rem 1px 1rem 1.5rem;
-  color: #d3d3d3;
+  margin: 1.2rem 1px 1rem 0.8rem;
+  color: #272a31;
+}
+
+.menu-hidden {
+  display: none !important;
+}
+
+header {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #747272;
 }
 
 .headline-text {
@@ -16,8 +27,8 @@
 }
 
 .conference-description-text {
-  color: black;
-  border: solid 2px red;
+  color: #747272; 
+  border: solid 3px white;
   padding: 0.5rem 0.75rem;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -125,6 +136,10 @@
   margin: 2px auto;
 }
 
+hr:not([size]) {
+  height: 3px;
+}
+
 .speaker-description-text {
   font-size: 0.5rem;
 }
@@ -159,4 +174,17 @@ footer {
 .nkwashi-logo {
   width: 8rem;
   margin: 3px 1px 2px 12px;
+}
+
+.mobile-menu-list ul {
+  list-style-type: none;
+}
+
+.mobile-menu-list ul li a{
+  text-decoration: none;
+  color: #9e9a9a;
+}
+
+.mobile-menu-list ul li a:hover {
+  color: #ec5242;
 }
