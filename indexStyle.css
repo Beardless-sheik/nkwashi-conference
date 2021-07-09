@@ -51,11 +51,6 @@ header {
   padding-bottom: 3rem;
 }
 
-.program-container {
-  background-color: #44464d;
-  margin: 2px 10px;
-}
-
 .main-program div h2{
   text-align: center;
   color: white;
@@ -78,9 +73,20 @@ header {
   margin-bottom: 0.75rem;
 }
 
+.grid-program-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  justify-items: center;
+  align-items: center;
+  background-color: #44464d;
+  margin: 2px 10px; 
+  padding: 0.4rem;
+}
+
 .program-image-icons {
   width: 24px;
   height: 24px;
+
 }
 
 .program-description-title {
@@ -149,7 +155,7 @@ hr:not([size]) {
 }
 
 .speaker-description-text {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .dividing-line-speakers {
@@ -209,7 +215,6 @@ header {
   .mobile-hidden {
     display: none;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -289,5 +294,99 @@ header {
 
   .main-program div h2 {
     font-size: 2rem;
+  }
+
+  .grid-program-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
+    padding: 3rem 2rem 6rem;
+  }
+
+  .desktop-outline-grid-program-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .program-image-icons {
+    width: 3.4rem;
+    height: 2.65rem;
+    margin-bottom: 5px;
+  }
+
+  .program-description-title {
+    font-size: 1.5rem;
+  }
+
+  .program-description-text {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 5px;
+  }
+
+  .speakers h2 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .grid-speaker-container {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    margin: 2rem 10rem
+  }
+
+  .partners {
+    font-family: 'Lato', sans-serif;
+    background-color: #272a31;
+    padding: 1rem 12rem;
+  }
+  
+  .partners h2 {
+    color: white;
+  }
+
+  .partner-image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .partner-logo-airbnb {
+    object-fit: cover;
+    width: 40%;
+    max-height: 80%;
+  }
+  
+  .partner-logo-firefox {
+    object-fit: cover;
+    width: 15%;
+    max-height: 100%;
+    margin-left: 2rem;
+  }
+  
+  .partner-logo-google {
+    object-fit: cover;
+    width: 40%;
+    max-height: 80%;
+    margin-top: -0.75rem;
+  }
+
+  .speaker-description {
+    font-family: 'Lato', sans-serif;
+    padding-top: 2rem;
+  }
+
+  .speaker-description-text {
+    font-size: 1rem;
+    width: 80%;
+  }
+  
+  footer {
+    padding: 1rem 8rem;
+    justify-items: center;
   }
 }
