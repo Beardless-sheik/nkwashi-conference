@@ -1,0 +1,108 @@
+header {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.menu-icon-mobile {
+  margin: 1.2rem 1px 1rem 0.8rem;
+  color: #272a31;
+}
+
+.headline-text {
+  font-family: 'Lato', sans-serif;
+  background-color: #F5F5F5;
+  padding: 1.3rem 2px;
+}
+
+.headline-description {
+  background-color: white;
+  font-size: 1.2rem;
+  border: #C7C2C2 solid 1px;
+}
+
+.greeting-text {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
+.headline-text h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.about-contact-email-text {
+  font-size: 0.8rem;
+}
+
+.about-logo-section {
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-copyright-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.orange-dividing-line-about {
+  color: #ec5242;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-copyright-image {
+  border: #C7C2C2 solid 1px;
+}
+
+.about-grey-dividing-full-line {
+  border: #C7C2C2 solid 2px;
+}
+
+.past-conferences {
+  font-family: 'Lato', sans-serif;
+}
+
+.partners {
+  font-family: 'Lato', sans-serif;
+  background-color: #272a31;
+}
+
+.partners h2 {
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Lato', sans-serif;
+}
+
+.nkwashi-logo {
+  width: 8rem;
+  margin: 3px 1px 2px 12px;
+}
+
+.partner-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.partner-logo {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+}
+
+.partner-logo-firefox {
+  object-fit: cover;
+  width: 50%;
+  max-height: 100%;
+  margin-left: 2rem;
+}
+
+.partner-logo-google {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+  margin-top: -0.75rem;
+}
