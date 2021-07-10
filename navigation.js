@@ -94,7 +94,7 @@ function populateFirstTwoSpeakers() {
     }
     counter += 1;
   });
-  speakerSection.innerHTML += '<button id="see-more-button" class="speakers-button rounded p-2"> MORE <i class="fas fa-chevron-down see-more-speakers-icon"></i> </button>';
+  speakerSection.innerHTML += '<button id="see-more-button" class="speakers-button rounded p-2" type="button"> MORE <i class="fas fa-chevron-down see-more-speakers-icon"></i> </button>';
   document.querySelector('#see-more-button').addEventListener('click', populateAllSpeakersMobile);
 }
 
