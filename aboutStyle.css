@@ -17,7 +17,7 @@ header {
 .headline-description {
   background-color: white;
   font-size: 1.2rem;
-  border: #C7C2C2 solid 1px;
+  border: #c7c2c2 solid 1px;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -53,12 +53,12 @@ header {
 }
 
 .about-copyright-image {
-  border: #C7C2C2 solid 1px;
+  border: #c7c2c2 solid 1px;
   width: 70%;
 }
 
 .about-grey-dividing-full-line {
-  border: #C7C2C2 solid 2px;
+  border: #c7c2c2 solid 2px;
 }
 
 .past-conferences {
@@ -69,10 +69,6 @@ header {
   margin-right: auto;
   margin-left: auto;
   width: 80%;
-}
-
-.past-conferences a:hover {
-  background-color: rgb(211, 129, 115) ;
 }
 
 .partners {
@@ -124,16 +120,20 @@ footer {
   list-style-type: none;
 }
 
-.mobile-menu-list ul li a{
+.mobile-menu-list ul li a {
   text-decoration: none;
   color: #9e9a9a;
+}
+
+.past-conferences a:hover {
+  background-color: rgb(211, 129, 115);
 }
 
 .mobile-menu-list ul li a:hover {
   color: #ec5242;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .menu-hidden {
     display: none !important;
   }
@@ -147,7 +147,7 @@ footer {
   .desktop-hidden {
     display: none;
   }
-  
+
   header {
     padding-bottom: 55px;
   }
@@ -161,21 +161,12 @@ footer {
     color: white;
   }
 
-  .upper-links div ul {
-    list-style-type: none;
-    display: flex;
-  }
-
   .upper-links div ul li a {
     text-decoration: none;
     color: white;
   }
-  .upper-links div ul li {
-    padding-left: 1.5rem;
-    padding-top: 4px;
-  }
 
-  .desktop-main-nav-links{
+  .desktop-main-nav-links {
     display: block;
   }
 
@@ -185,6 +176,16 @@ footer {
     background: white;
     font-family: 'Lato', sans-serif;
     list-style-type: none;
+  }
+
+  .upper-links div ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .upper-links div ul li {
+    padding-left: 1.5rem;
+    padding-top: 4px;
   }
 
   .header-desktop-image-logo {
@@ -222,7 +223,7 @@ footer {
   }
 
   .about-copyright-image {
-    border: #C7C2C2 solid 1px;
+    border: #c7c2c2 solid 1px;
     width: 30%;
   }
 
@@ -234,33 +235,29 @@ footer {
   .desktop-past-conferences-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    column-gap: 15px;
   }
-   .desktop-past-conferences-grid {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;
-     column-gap: 15px;
-   }
 
-   .conference-images {
+  .conference-images {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
     height: 16rem;
   }
 
-  .past-conferences{
+  .past-conferences {
     padding: 4rem 0;
   }
 
   footer {
     background-color: #272a31;
     padding: 3rem 0;
-    color:white;
+    color: white;
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
     justify-items: center;
   }
 }
