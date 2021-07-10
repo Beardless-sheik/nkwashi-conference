@@ -1,5 +1,6 @@
 header {
-  background-color: #F5F5F5;
+  background-image: url('./images/background.png');
+  background-size: cover;
   width: 100%;
 }
 
@@ -10,7 +11,6 @@ header {
 
 .headline-text {
   font-family: 'Lato', sans-serif;
-  background-color: #F5F5F5;
   padding: 1.3rem 2px;
 }
 
@@ -18,6 +18,8 @@ header {
   background-color: white;
   font-size: 1.2rem;
   border: #C7C2C2 solid 1px;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .greeting-text {
@@ -52,6 +54,7 @@ header {
 
 .about-copyright-image {
   border: #C7C2C2 solid 1px;
+  width: 70%;
 }
 
 .about-grey-dividing-full-line {
@@ -60,6 +63,16 @@ header {
 
 .past-conferences {
   font-family: 'Lato', sans-serif;
+}
+
+.conference-images {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+.past-conferences a:hover {
+  background-color: rgb(211, 129, 115) ;
 }
 
 .partners {
@@ -105,4 +118,149 @@ footer {
   width: 90%;
   max-height: 100%;
   margin-top: -0.75rem;
+}
+
+.mobile-menu-list ul {
+  list-style-type: none;
+}
+
+.mobile-menu-list ul li a{
+  text-decoration: none;
+  color: #9e9a9a;
+}
+
+.mobile-menu-list ul li a:hover {
+  color: #ec5242;
+}
+
+@media screen and (max-width: 767px){
+  .menu-hidden {
+    display: none !important;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-hidden {
+    display: none;
+  }
+  
+  header {
+    padding-bottom: 55px;
+  }
+
+  .top-view-links {
+    background-color: #454546;
+    height: 2rem;
+  }
+
+  .upper-links {
+    color: white;
+  }
+
+  .upper-links div ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .upper-links div ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .upper-links div ul li {
+    padding-left: 1.5rem;
+    padding-top: 4px;
+  }
+
+  .desktop-main-nav-links{
+    display: block;
+  }
+
+  .desktop-main-nav-links ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    background: white;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+  }
+
+  .header-desktop-image-logo {
+    object-fit: cover;
+    width: 3rem;
+    max-height: 100%;
+  }
+
+  .headline-text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headline-text h1 {
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    padding-top: 60px;
+  }
+
+  .orange-dividing-line-about {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .headline-description {
+    width: 70%;
+    margin-right: auto;
+    margin-left: 13rem;
+  }
+
+  .about-contact-email-text {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .about-copyright-image {
+    border: #C7C2C2 solid 1px;
+    width: 30%;
+  }
+
+  .logo-copyright-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .desktop-past-conferences-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+   .desktop-past-conferences-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     column-gap: 15px;
+   }
+
+   .conference-images {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 16rem;
+  }
+
+  .past-conferences{
+    padding: 4rem 0;
+  }
+
+  footer {
+    background-color: #272a31;
+    padding: 3rem 0;
+    color:white;
+    width: 100%;
+    margin:0 auto;
+    justify-items: center;
+  }
 }
