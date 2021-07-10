@@ -52,6 +52,10 @@ header {
   padding-bottom: 3rem;
 }
 
+.partners h2 {
+  color: white;
+}
+
 .main-program div h2 {
   text-align: center;
   color: white;
@@ -129,8 +133,8 @@ header {
 }
 
 .speaker-image {
-  width: 80%;
-  height: 80%;
+  width: 10rem;
+  height: 8rem;
   margin: 1rem;
 }
 
@@ -207,6 +211,53 @@ footer {
   display: none;
 }
 
+.partners {
+  font-family: 'Lato', sans-serif;
+  background-color: #272a31;
+}
+
+.partner-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.partner-logo {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+}
+
+.partner-logo-firefox {
+  object-fit: cover;
+  width: 50%;
+  max-height: 100%;
+  margin-left: 2rem;
+}
+
+.partner-logo-google {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+  margin-top: -0.75rem;
+}
+
+.speaker-image-container {
+  width: 10rem;
+  height: 8rem;
+  position: relative;
+  margin-right: 30px;
+}
+
+.background-checker-image {
+  position: absolute;
+  top: -1px;
+  left: -3px;
+  z-index: -10;
+  padding: 5px;
+  width: 4rem;
+  height: 4rem;
+}
+
 @media screen and (max-width: 767px) {
   .menu-hidden {
     display: none !important;
@@ -214,6 +265,15 @@ footer {
 
   .mobile-hidden {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .desktop-outline-grid-program-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+    margin: 0 auto;
+    width: 70%;
   }
 }
 
@@ -270,7 +330,7 @@ footer {
   .headline-text {
     max-width: 75%;
     padding: 5rem 7rem 7rem;
-    margin-left: 8rem;
+    margin-left: 80px;
   }
 
   .greeting-text {
@@ -278,7 +338,7 @@ footer {
   }
 
   .headline-text h1 {
-    font-size: 4.5rem;
+    font-size: 3.7rem;
   }
 
   .conference-description-text {
@@ -317,7 +377,7 @@ footer {
 
   .desktop-outline-grid-program-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     width: 70%;
   }
@@ -342,7 +402,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-content: center;
-    margin: 2rem 10rem;
+    margin: 2rem 35px;
   }
 
   .partners {
