@@ -5,6 +5,8 @@
 
 ![capstone screenshot](https://user-images.githubusercontent.com/44676055/125154834-5c7f0080-e15c-11eb-8083-a1085a529ac6.png)
 
+A live preview of the project can be found [here](https://beardless-sheik.github.io/nkwashi-conference/about.html)
+
 ## Built With
 
 - HTML, CSS & Javascript
