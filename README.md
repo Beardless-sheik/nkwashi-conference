@@ -2,6 +2,11 @@
 
 >A capstone project being done to finish up work done in Module 1 of the Microverse web development course based on HTML5, CSS and Javascript(mobile and desktop). The 2 versions have been styled in plain CSS & Bootstrap. It is based on an imaginary conference held in my home city Lusaka.
 
+
+![capstone screenshot](https://user-images.githubusercontent.com/44676055/125154834-5c7f0080-e15c-11eb-8083-a1085a529ac6.png)
+
+A live preview of the project can be found [here](https://beardless-sheik.github.io/nkwashi-conference/about.html)
+
 ## Built With
 
 - HTML, CSS & Javascript
