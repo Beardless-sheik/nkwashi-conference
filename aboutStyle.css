@@ -1,0 +1,263 @@
+header {
+  background-image: url('./images/background.png');
+  background-size: cover;
+  width: 100%;
+}
+
+.menu-icon-mobile {
+  margin: 1.2rem 1px 1rem 0.8rem;
+  color: #272a31;
+}
+
+.headline-text {
+  font-family: 'Lato', sans-serif;
+  padding: 1.3rem 2px;
+}
+
+.headline-description {
+  background-color: white;
+  font-size: 1.2rem;
+  border: #c7c2c2 solid 1px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.greeting-text {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
+.headline-text h1 {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.about-contact-email-text {
+  font-size: 0.8rem;
+}
+
+.about-logo-section {
+  font-family: 'Lato', sans-serif;
+}
+
+.logo-copyright-text {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.orange-dividing-line-about {
+  color: #ec5242;
+  width: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.about-copyright-image {
+  border: #c7c2c2 solid 1px;
+  width: 70%;
+}
+
+.about-grey-dividing-full-line {
+  border: #c7c2c2 solid 2px;
+}
+
+.past-conferences {
+  font-family: 'Lato', sans-serif;
+}
+
+.conference-images {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+.partners {
+  font-family: 'Lato', sans-serif;
+  background-color: #272a31;
+}
+
+.partners h2 {
+  color: white;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: 'Lato', sans-serif;
+}
+
+.nkwashi-logo {
+  width: 8rem;
+  margin: 3px 1px 2px 12px;
+}
+
+.partner-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.partner-logo {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+}
+
+.partner-logo-firefox {
+  object-fit: cover;
+  width: 50%;
+  max-height: 100%;
+  margin-left: 2rem;
+}
+
+.partner-logo-google {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+  margin-top: -0.75rem;
+}
+
+.mobile-menu-list ul {
+  list-style-type: none;
+}
+
+.mobile-menu-list ul li a {
+  text-decoration: none;
+  color: #9e9a9a;
+}
+
+.past-conferences a:hover {
+  background-color: rgb(211, 129, 115);
+}
+
+.mobile-menu-list ul li a:hover {
+  color: #ec5242;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-hidden {
+    display: none !important;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-hidden {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 55px;
+  }
+
+  .top-view-links {
+    background-color: #454546;
+    height: 2rem;
+  }
+
+  .upper-links {
+    color: white;
+  }
+
+  .upper-links div ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .desktop-main-nav-links {
+    display: block;
+  }
+
+  .desktop-main-nav-links ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    background: white;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+  }
+
+  .upper-links div ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .upper-links div ul li {
+    padding-left: 1.5rem;
+    padding-top: 4px;
+  }
+
+  .header-desktop-image-logo {
+    object-fit: cover;
+    width: 3rem;
+    max-height: 100%;
+  }
+
+  .headline-text {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headline-text h1 {
+    color: #ec5242;
+    font-family: 'COCOGOOSE', sans-serif;
+    padding-top: 60px;
+  }
+
+  .orange-dividing-line-about {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .headline-description {
+    width: 70%;
+    margin-right: auto;
+    margin-left: 13rem;
+  }
+
+  .about-contact-email-text {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .about-copyright-image {
+    border: #c7c2c2 solid 1px;
+    width: 30%;
+  }
+
+  .logo-copyright-text {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .desktop-past-conferences-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    column-gap: 15px;
+  }
+
+  .conference-images {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 16rem;
+  }
+
+  .past-conferences {
+    padding: 4rem 0;
+  }
+
+  footer {
+    background-color: #272a31;
+    padding: 3rem 0;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    justify-items: center;
+  }
+}
