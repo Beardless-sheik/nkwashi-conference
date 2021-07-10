@@ -4,42 +4,48 @@ const speakerData = [
     speakerTitle: 'Software Developer',
     speakerAchievements: `Alick has been invested in the Zambian tech scene for a long time. 
     He helped start a company called Get It Online Zambia and has been heavily involved in the building 
-    up of the e-commerce & developer community in Zambia.`
+    up of the e-commerce & developer community in Zambia.`,
+    speakerImage:'./images/alick.jpg'
   },
   { 
     speakerName: 'Robert Phiri',
     speakerTitle: 'Real estate Developer',
     speakerAchievements: `Robert has studied in the UK as an investment professional. 
     He quickly got back to Zambia after a few years as he felt he needed to give back to his home .He
-    is involved as a director on the Nkwashi team and is looking to build charter cities all across Africa.`
+    is involved as a director on the Nkwashi team and is looking to build charter cities all across Africa.`,
+    speakerImage:'./images/robert.jpg'
   },
   {
     speakerName: 'Bestone Bwalya',
     speakerTitle: 'Lawyer',
     speakerAchievements: `Bestone has been a Zambian lawyer that has been practicsing law locally 
     for over 20 years. He brings his experience in local land matters to this conference to educate us
-    on the work they are doing to improve local land laws for the people`
+    on the work they are doing to improve local land laws for the people`,
+    speakerImage:'./images/bestone.jpg'
   },
   {
     speakerName: 'Mick Jenkins',
     speakerTitle: 'Rapper',
     speakerAchievements: `Alick has been invested in the Zambian tech scene for a long time. 
     He helped start a company called Get It Online Zambia and has been heavily involved in the building 
-    up of the e-commerce & developer community in Zambia`
+    up of the e-commerce & developer community in Zambia`,
+    speakerImage:'./images/mick.jpeg'
   },
   {
     speakerName: 'Dambiso Mwale',
     speakerTitle: 'Artist',
     speakerAchievements: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat dictum est. 
     Cras pulvinar lectus sit amet dolor vehicula, eu semper magna lacinia. 
-    Etiam lobortis sem eget nibh posuere aliquam a sit amet nisl. Phasellus iaculis augue vel lacus laoreet commodo.` 
+    Etiam lobortis sem eget nibh posuere aliquam a sit amet nisl. Phasellus iaculis augue vel lacus laoreet commodo.`,
+    speakerImage:'./images/dambiso.jpeg'
   },
   {
     speakerName: 'Xian Hing',
     speakerTitle: 'Asain Investment Banker',
     speakerAchievements: `Proin sit amet placerat est. Nunc sit amet augue sit amet nulla sollicitudin maximus eget sit 
     amet nunc. Etiam posuere cursus facilisis. Phasellus nec sodales odio. Sed malesuada nisl quis porttitor gravida. 
-    Aliquam nec auctor tortor. Nam ut vulputate nibh.`
+    Aliquam nec auctor tortor. Nam ut vulputate nibh.`,
+    speakerImage:'./images/xian.jpg'
   }
 ]
 
@@ -60,7 +66,7 @@ function populateFirstTwoSpeakers(){
     if (counter<=1){
       speakerSection.innerHTML += `
         <div class="grid-speaker-section">
-          <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
+          <img src="${data.speakerImage}" alt="speaker image" class="rounded speaker-image">
           <div class="speaker-description">
             <p class="h5 mb-1">${data.speakerName}</p>
             <p class="speaker-profession"> ${data.speakerTitle} </p>
@@ -79,7 +85,7 @@ function populateAllSpeakersMobile(){
   speakerData.forEach((data) => {
   speakerSection.innerHTML += `
         <div class="grid-speaker-section">
-          <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
+          <img src="${data.speakerImage}" alt="speaker image" class="rounded speaker-image">
           <div class="speaker-description">
             <p class="h5 mb-1">${data.speakerName}</p>
             <p class="speaker-profession"> ${data.speakerTitle} </p>
@@ -95,7 +101,7 @@ function populateAllSpeakersDesktop(){
   speakerData.forEach((data) => {
     speakerSection.innerHTML += `
           <div class="grid-speaker-section">
-            <img src="./images/speaker-placeholder.png" alt="speaker image" class="rounded speaker-image">
+            <img src="${data.speakerImage}" alt="speaker image" class="rounded speaker-image">
             <div class="speaker-description">
               <p class="h5 mb-1">${data.speakerName}</p>
               <p class="speaker-profession"> ${data.speakerTitle} </p>
